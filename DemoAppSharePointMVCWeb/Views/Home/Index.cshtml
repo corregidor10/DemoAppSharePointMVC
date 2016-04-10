@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Welcome @ViewBag.UserName!</h2>
+    
+</div>
+<div class="jumbotron">
+    @Html.Action("TotalPedidos")
+</div>
+<div class="row">
+    @Html.Action("ListaPedidos")
+</div>
+
